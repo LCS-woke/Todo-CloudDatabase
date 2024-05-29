@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4B42C08A2BFCD71800914158 /* TodoListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B42C0892BFCD71800914158 /* TodoListViewModel.swift */; };
 		4B42C0972BFF9EEE00914158 /* Supabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B42C0962BFF9EEE00914158 /* Supabase.swift */; };
 		4B42C09A2C01118C00914158 /* Auth in Frameworks */ = {isa = PBXBuildFile; productRef = 4B42C0992C01118C00914158 /* Auth */; };
 		4B42C09C2C01118C00914158 /* Functions in Frameworks */ = {isa = PBXBuildFile; productRef = 4B42C09B2C01118C00914158 /* Functions */; };
@@ -15,6 +14,7 @@
 		4B42C0A02C01118C00914158 /* Realtime in Frameworks */ = {isa = PBXBuildFile; productRef = 4B42C09F2C01118C00914158 /* Realtime */; };
 		4B42C0A22C01118C00914158 /* Storage in Frameworks */ = {isa = PBXBuildFile; productRef = 4B42C0A12C01118C00914158 /* Storage */; };
 		4B42C0A42C01118C00914158 /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = 4B42C0A32C01118C00914158 /* Supabase */; };
+		4B42C0A72C076A2D00914158 /* TodoListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B42C0A62C076A2D00914158 /* TodoListViewModel.swift */; };
 		814A08FC2BC41BC500921E4F /* ItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814A08FB2BC41BC500921E4F /* ItemView.swift */; };
 		814A08FE2BC41C7800921E4F /* TodoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814A08FD2BC41C7800921E4F /* TodoItem.swift */; };
 		815D9D7D2BC413800050957E /* TodoListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815D9D7C2BC413800050957E /* TodoListApp.swift */; };
@@ -24,8 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4B42C0892BFCD71800914158 /* TodoListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TodoListViewModel.swift; path = "../../../Todo App/TodoListViewModel.swift"; sourceTree = "<group>"; };
 		4B42C0962BFF9EEE00914158 /* Supabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Supabase.swift; sourceTree = "<group>"; };
+		4B42C0A62C076A2D00914158 /* TodoListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListViewModel.swift; sourceTree = "<group>"; };
 		814A08FB2BC41BC500921E4F /* ItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemView.swift; sourceTree = "<group>"; };
 		814A08FD2BC41C7800921E4F /* TodoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoItem.swift; sourceTree = "<group>"; };
 		815D9D792BC413800050957E /* TodoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,12 +52,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4B42C0882BFCD6BD00914158 /* New Group */ = {
+		4B42C0A52C0769F000914158 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				4B42C0892BFCD71800914158 /* TodoListViewModel.swift */,
+				4B42C0A62C076A2D00914158 /* TodoListViewModel.swift */,
 			);
-			path = "New Group";
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		815D9D702BC413800050957E = {
@@ -82,8 +82,8 @@
 				815D9D7C2BC413800050957E /* TodoListApp.swift */,
 				815D9D8C2BC414270050957E /* Helpers */,
 				815D9D8B2BC414160050957E /* Model */,
+				4B42C0A52C0769F000914158 /* ViewModel */,
 				815D9D8A2BC413F70050957E /* Views */,
-				4B42C0882BFCD6BD00914158 /* New Group */,
 				815D9D802BC413810050957E /* Assets.xcassets */,
 				815D9D822BC413810050957E /* Preview Content */,
 			);
@@ -208,8 +208,8 @@
 				4B42C0972BFF9EEE00914158 /* Supabase.swift in Sources */,
 				814A08FC2BC41BC500921E4F /* ItemView.swift in Sources */,
 				814A08FE2BC41C7800921E4F /* TodoItem.swift in Sources */,
+				4B42C0A72C076A2D00914158 /* TodoListViewModel.swift in Sources */,
 				815D9D7D2BC413800050957E /* TodoListApp.swift in Sources */,
-				4B42C08A2BFCD71800914158 /* TodoListViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
